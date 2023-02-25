@@ -1,0 +1,114 @@
+.search-box{
+    position: relative;
+    height: 60px;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.search-form{
+    position: relative;
+    display: flex;  
+    align-items: center;
+    width: 100%;
+    input{
+        height: 60px;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: 500;
+        &::placeholder{
+            font-size: 15px;
+            color: #61787b;
+        }
+    }
+}
+.search-icon{
+    margin: 1rem;
+    color: #002f34;
+    font-size: 25px;
+    line-height: 1 !important;
+    background-color: #fff;
+}
+form{
+    display: flex;  
+    width: 100%;
+}
+.search-btn{
+    border:  transparent;
+    cursor: pointer;
+    display: flex;
+    background-color: #fff;
+
+    height: 60px;
+    padding: 0 1rem;
+    align-items: center;
+    transition: all ease 0.3s;
+    font-weight: 500;
+    font-size: 20px;
+    color: #002f34;
+    &:hover{
+        background-color: #002f34;
+        color: #fff;
+    }
+    svg{
+        font-size: 25px;
+    }
+    p{
+        margin-right: 10px;
+    }
+}
+.search-suggestion{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    padding: 20px 25px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   
+}
+.suggestion-title{
+    display: block;
+    border-bottom: 1px solid #d8dfe0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #041719;
+    transition: all ease-in 0.3s;
+    :hover{
+        background:#002f34;
+        color: #fff;
+    }
+    
+}
+
+small{
+    height: 100%;
+font-size: 12px;
+font-weight: normal;
+line-height: 1.17;
+}
+
+.suggestion-title-main{
+    
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+
+}
+.suggestion-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    min-height: 56px;
+    border-bottom: 1px solid #d8dfe0;
+    padding-top: 10px; 
+    
+}
+.suggestion-title:hover {
+    color: #fff;
+}
